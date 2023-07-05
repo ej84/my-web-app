@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+This is a simple Full Stack Online Courses Web Application written in and powered by [Next.js](https://nextjs.org/) and connected with Supabase for Cloud Database and Google Authentication System.
+
+This project is bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
