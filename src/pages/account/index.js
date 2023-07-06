@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import supabase from "../../lib/supabase";
 import { useSession, useSupabaseClient } from "@supabase/auth-helpers-react";
-import SavedCourses from "../../components/SavedCourses";
 
 export default function Accounts() {
     const [userProfile, setUserProfile] = useState(null)
@@ -47,36 +46,34 @@ export default function Accounts() {
 
     return (
         <div className="flex justify-center items-center">
-            <div className="container max-w-xl mx-auto">
+            <div className="container max-w-xl mx-auto mt-5">
             <h1 className="text-2xl font-bold mb-4">Account Settings</h1>
             {userProfile ? (
                 <>
                 <form onSubmit={handleUpdateProfile}>
-                    <label className="block mb-2">
-                        Full Name:
+                    <label className="block mb-4">
+                        <p className="inline-block">Full Name:</p>
                         <input
                             type="text"
                             name="full_name"
                             defaultValue={userProfile.full_name}
-                            className="w-full border rounded py-2 px-3"
+                            className="w-72 border rounded inline-block mx-3 py-2 px-3"
                         />
                     </label>
-                    <label className="block mb-2">
-                        Bio:
+                    <label className="block mb-4">
+                        <p className="inline-block">Biography:</p>
                         <textarea
                             name="bio"
                             defaultValue={userProfile.bio}
-                            className="w-full border rounded py-2 px-3"
+                            className="w-72 border rounded inline-block mx-3 py-2 px-3"
                         />
                     </label>
                     <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                         Update Profile
                     </button>
                 </form>
-                <SavedCourses userId={userProfile.user_id}/>
                 </>
-            ):
-            <p>Loading...</p>
+            ) : <p>Loading...</p>
             }
             </div>
         </div>
