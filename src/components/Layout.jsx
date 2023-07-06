@@ -4,7 +4,7 @@ import { Auth } from "@supabase/auth-ui-react";
 import { ThemeSupa } from "@supabase/auth-ui-shared";
 import { useSession, useSupabaseClient } from '@supabase/auth-helpers-react';
 import Header from "./Header";
-import Footer from './footer';
+import Footer from './Footer';
 
 
 const Layout = ({ children }) => {
