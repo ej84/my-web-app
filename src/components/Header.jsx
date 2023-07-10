@@ -37,12 +37,12 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="bg-gray-900 text-white py-2 px-8 flex items-start justify-start">
-      <nav className="flex items-center space-x-2 space-y-2">
+    <header className="bg-gray-900 text-white px-3 py-2 flex items-start justify-start md:px-8">
+      <nav className="flex items-center md:space-x-2 space-y-2">
       <Link href="/">
-        <p className="text-xl font-bold mt-1">Course App</p>
+        <p className="text-md md:text-xl font-bold mt-1">Course App</p>
       </Link>
-        <ul className="flex space-x-5">
+        <ul className="flex px-2 space-x-3 md:space-x-5">
           <li>
             <Link href="/courses">
               <p className="hover:text-gray-400">Courses</p>
