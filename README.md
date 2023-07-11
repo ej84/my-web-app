@@ -8,6 +8,8 @@ Screenshots:
 
 Main (SignedIn)
 
+![Alt text](https://github.com/ej84/my-web-app/blob/main/src/img/course_main.PNG)
+
 ## Getting Started
 
 First, run the development server:
