@@ -4,11 +4,26 @@ This is a simple Full Stack Online Courses Web Application written in and powere
 
 This project is bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Screenshots:
+## Screenshots:
 
 Main (SignedIn)
 
 ![Alt text](https://github.com/ej84/my-web-app/blob/main/src/img/course_main.PNG)
+
+
+Courses List
+
+![Alt text](https://github.com/ej84/my-web-app/blob/main/src/img/course_lists.PNG)
+
+
+Course Detail Page
+
+![Alt text](https://github.com/ej84/my-web-app/blob/main/src/img/courseInfo_category.PNG)
+
+
+User Profile
+
+![Alt text](https://github.com/ej84/my-web-app/blob/main/src/img/course_profile.PNG)
 
 ## Getting Started
 
