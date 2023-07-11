@@ -11,9 +11,11 @@ Main (SignedIn):
 ![Alt text](https://github.com/ej84/my-web-app/blob/main/src/img/course_main.PNG)
 
 
+
 Courses List:
 
 ![Alt text](https://github.com/ej84/my-web-app/blob/main/src/img/course_lists.PNG)
+
 
 
 Course Detail Page:
@@ -21,9 +23,12 @@ Course Detail Page:
 ![Alt text](https://github.com/ej84/my-web-app/blob/main/src/img/courseInfo_category.PNG)
 
 
+
 User Profile:
 
 ![Alt text](https://github.com/ej84/my-web-app/blob/main/src/img/course_profile.PNG)
+
+
 
 ## Getting Started
 
