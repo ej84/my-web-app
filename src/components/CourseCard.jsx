@@ -61,6 +61,9 @@ const CourseCard = ({ course, userId, category }) => {
           <h2 className="text-lg font-semibold">{title}</h2>
           <p className="text-gray-600 text-sm mt-2">{description}</p>
           <span className="bg-indigo-100 text-indigo-800 font-semibold py-1 px-2 rounded-full inline-block mt-2 mr-2">{category}</span>
+          <Link href="/courseInfo" className="text-white">
+            <p className={ClassNames("w-28 font-semibold px-2 py-2 mt-3 rounded-full hover:text-gray-400", bgColorClass)}>Learn More</p>
+          </Link>
           <div className="flex justify-between items-center mt-4">
             <span className="text-gray-800 font-semibold text-xl">${price}</span>
             <EnrollButton courseId={id} userId={userId}/>
