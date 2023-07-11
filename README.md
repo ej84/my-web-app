@@ -4,6 +4,10 @@ This is a simple Full Stack Online Courses Web Application written in and powere
 
 This project is bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Screenshots:
+
+Main (SignedIn)
+
 ## Getting Started
 
 First, run the development server:
