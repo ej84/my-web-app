@@ -4,7 +4,7 @@ import { CCarousel, CImage, CCarouselItem } from "@coreui/react";
 const Slides = () => {
 
     return (
-      <div className="container w-50 h-50 mt-5">
+      <div className="container mt-5 w-50 h-50">
         <CCarousel controls transition="crossfade">
         <CCarouselItem>
         <CImage className="d-block w-100" src="https://raw.githubusercontent.com/ej84/my-web-app/main/src/img/oc_1.jpg" alt="slide 1" />

@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-2 px-8 flex items-center justify-center mt-5">
-      <nav className="flex items-center space-x-2 space-y-3 mt-2">
+    <footer className="bg-gray-900 text-white py-2 flex items-center justify-center mt-5">
+      <nav className="flex items-center space-x-2 space-y-3 mt-3">
         <ul className="flex space-x-5">
         <li>Created by Richard Jeong</li>
         <li>Email Address: jmw9871@gmail.com</li>

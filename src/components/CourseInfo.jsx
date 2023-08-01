@@ -4,7 +4,7 @@ import { Auth } from "@supabase/auth-ui-react";
 
 const CourseInfo = ({course, category}) => {
 
-    const {title, description, price, upload_date} = course;
+    const {title, description, price, updated_at} = course;
 
     return (
       <div className="flex justify-center items-center min-h-screen">
@@ -13,8 +13,8 @@ const CourseInfo = ({course, category}) => {
           <h3 className="mb-2 text-lg font-semibold text-gray-600">Instructor: Instructor Name</h3>
           <div className="mb-2 text-gray-600">Category: {category}</div>
           <p className="mb-2 text-gray-600">Description: {description}</p>
-          <div className="mb-2 text-gray-600">Price: {price}</div>
-          <div className="mb-2 text-gray-600">Upload Date: {upload_date}</div>
+          <div className="mb-2 text-gray-600">Price: ${price}</div>
+          <div className="mb-2 text-gray-600">Upload Date: {updated_at}</div>
           <div className="mb-4 text-gray-600">Number of Users: 100</div>
           
           <form>
