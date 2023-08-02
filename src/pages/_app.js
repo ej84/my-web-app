@@ -6,6 +6,7 @@ import Script from "next/script";
 import Layout from "../components/Layout";
 import '@/styles/globals.css'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Footer from '@/components/Footer';
 
 export default function MyApp({ Component, pageProps }) {
   // Create a new supabase browser client on every first render.

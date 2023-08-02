@@ -42,7 +42,7 @@ const CourseCard = ({ course, userId, category }) => {
     return (
         <div
           className={ClassNames(
-            "bg-white p-4 rounded-md shadow-md",
+            "bg-white p-4 rounded-md shadow-lg",
             bgColorClass,
             textColorClass
           )}
