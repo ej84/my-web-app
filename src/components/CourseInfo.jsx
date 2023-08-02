@@ -11,12 +11,14 @@ const CourseInfo = ({course, category}) => {
         <div className="bg-white shadow-lg rounded px-8 pb-28 mb-4 flex flex-col my-2 md:w-1/2">
           <div className="mt-24">
           <h2 className="bg-gray-900 px-1 mb-3 text-xl font-bold text-white">{title}</h2>
-          <h3 className="px-2 mb-2 text-lg font-semibold text-gray-600">Instructor: Instructor Name</h3>
-          <div className="px-2 mb-2 text-gray-600">Category: {category}</div>
-          <p className="px-2 mb-2 text-gray-600">Description: {description}</p>
-          <div className="px-2 mb-2 text-gray-600">Price: ${price}</div>
-          <div className="px-2 mb-2 text-gray-600">Upload Date: {updated_at}</div>
-          <div className="px-2 mb-4 text-gray-600">Number of Users: 100</div>
+          <div className="px-3">
+          <h3 className="mb-2 text-lg font-semibold text-gray-600">Instructor: Instructor</h3>
+          <div className="mb-2 text-gray-600">Category: {category}</div>
+          <p className="mb-2 text-gray-600">Description: {description}</p>
+          <div className="mb-2 text-gray-600">Price: ${price}</div>
+          <div className="mb-2 text-gray-600">Upload Date: {updated_at}</div>
+          <div className="mb-4 text-gray-600">Number of Users: 100</div>
+          </div>
           
           <form>
             <div className="mb-4">
